@@ -215,17 +215,17 @@
   
           <div class="form-group row mb-2">
             <label class="col-md-2 col-form-label"
-                   attr.for="{{ 'cityId' + i}}">City, State, Zip Code</label>
+                   attr.for="{{'cityId' + i}}">City, State, Zip Code</label>
             <div class="col-md-3">
               <input class="form-control"
-                     id="{{ 'cityId' + i}}"
+                     id="{{'cityId' + i}}"
                      type="text"
                      placeholder="City"
                      formControlName="city">
             </div>
             <div class="col-md-3">
               <select class="form-control"
-                      id="{{ 'stateId' + i}}"
+                      id="{{'stateId' + i}}"
                       formControlName="state">
                 <option value=""
                         disabled
@@ -243,7 +243,7 @@
             </div>
             <div class="col-md-2">
               <input class="form-control"
-                     id="{{ 'zipId' + i}}"
+                     id="{{'zipId' + i}}"
                      type="number"
                      placeholder="Zip Code"
                      formControlName="zip">
